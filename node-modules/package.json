@@ -1,0 +1,7 @@
+{
+  "name": "yarn-binary-deps-repro",
+  "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "core-js": "^3.40.0"
+  }
+}
