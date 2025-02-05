@@ -13,7 +13,6 @@ jobs:
   build:
 
     runs-on: namespace-profile-small
-
     strategy:
       matrix:
         subproject: [pnp, pnpm, node-modules]
