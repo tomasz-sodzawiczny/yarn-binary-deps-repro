@@ -1,3 +1,3 @@
 # yarn-binary-deps-repro
 
-bump
+bump 2
