@@ -28,6 +28,7 @@ jobs:
         uses: namespacelabs/nscloud-cache-action@v1
         with:
           cache: yarn
-      - run: cd ${{ matrix.subproject}}
-      - run: corepack enable
-      - run: yarn install
+      - run: |
+          cd ${{ matrix.subproject}}
+          corepack enable
+          yarn install
