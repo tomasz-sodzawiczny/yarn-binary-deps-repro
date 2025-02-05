@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: namespace-profile-default
+    runs-on: namespace-profile-small
 
     strategy:
       matrix:
